@@ -1,7 +1,7 @@
 const socials = [
   {
     name: "GitHub",
-    href: "https://github.com/voisnoa",
+    href: "https://github.com/Marwan-Qasim",
     label: "Visit GitHub profile",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -14,7 +14,7 @@ const socials = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/marwan-Qasim/",
+    href: "https://www.linkedin.com/in/marvan-kasim/",
     label: "Visit LinkedIn profile",
     icon: (
       <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -32,6 +32,16 @@ export default function Home() {
     <main className="home-shell">
       <section className="hero" aria-label="Intro">
         <h1 className="hero-title">Marwan Qasim</h1>
+        <p className="hero-intro">
+          I am a full-stack developer who enjoys building functional and
+          well-designed web applications. I built Echo Space, a real-time chat
+          application using Socket.IO, which strengthened my skills in
+          full-stack development and real-time communication systems. I am now
+          seeking an internship to apply my skills in real-world projects,
+          improve my understanding of system design and code quality, and grow
+          through collaboration with engineering teams while contributing to
+          impactful software.
+        </p>
 
         <nav className="socials" aria-label="Social links">
           {socials.map((social) => (
